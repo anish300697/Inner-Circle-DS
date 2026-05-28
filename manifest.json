@@ -1,0 +1,9 @@
+{
+  "name": "Inner Circle Design Studio",
+  "short_name": "ICDS",
+  "description": "Architecture, interior, civil, planning, and landscaping design services.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f6f7f8",
+  "theme_color": "#587690"
+}
