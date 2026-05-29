@@ -1,17 +1,1 @@
-Inner Circle Design Studio - GitHub Pages Ready
-
-Upload the contents of this folder to the root of your GitHub repository.
-Do not upload the ZIP file itself.
-
-Required root files:
-- index.html
-- contact.html
-- designs.html
-- projects.html
-- publications.html
-- team.html
-- .nojekyll
-- assets/ folder
-
-GitHub Pages settings:
-Settings > Pages > Deploy from branch > main > / (root)
+Upload these files directly to your repository root. Do not upload the ZIP file itself. This version has inline CSS/JS/logo, so it does not depend on an assets folder loading correctly.
