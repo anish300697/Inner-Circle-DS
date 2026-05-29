@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#587690" />
+  <meta name="description" content="Contact Inner Circle Design Studio for architecture, interior, civil, planning, and landscaping services." />
+  <title>Contact | Inner Circle Design Studio</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand">
+        <a class="brand-logo" href="index.html">
+          <img src="innercirclelogo.jpeg" alt="Inner Circle Design Studio logo" />
+        </a>
+        <div class="brand-copy">
+          <p class="eyebrow">Inner Circle Design Studio</p>
+          <h1>Contact</h1>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#work">Work</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section contact-section">
+        <div class="section-intro">
+          <p class="eyebrow">Let’s connect</p>
+          <h2>Send a message to start your project.</h2>
+          <p>Use the form below or email us directly at <a href="mailto:contact@innercircleds.com">contact@innercircleds.com</a>.</p>
+        </div>
+
+        <form class="contact-form" action="https://formsubmit.co/contact@innercircleds.com" method="POST">
+          <input type="hidden" name="_subject" value="New inquiry from website" />
+          <input type="hidden" name="_captcha" value="false" />
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Project brief
+            <textarea name="message" rows="7" placeholder="A short description of your project" required></textarea>
+          </label>
+          <button class="button primary" type="submit">Send inquiry</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Inner Circle Design Studio — Architecture, Interior, Civil, Planning, Landscaping</p>
+    </footer>
+  </div>
+</body>
+</html>
